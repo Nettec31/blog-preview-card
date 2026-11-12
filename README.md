@@ -1,6 +1,5 @@
 How did using Figma designs as references affect your coding process?
 
-----------------------------------------
 
 Having the Figma design made it a lot easier to figure out what things were supposed to look like instead of just guessing. It gave me a clear target for spacing, font sizes, and colors, so I wasn't just winging the layout.
 
