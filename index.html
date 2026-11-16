@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="stylesheet" href="./style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
 
-  <main>
-    <article class="card">
-      <img src="./assets/images/illustration-article.svg" alt="Illustration representing HTML and CSS code" class="card-image">
+  <main class="container d-flex justify-content-center align-items-center min-vh-100">
+    <article class="card shadow-sm p-3 rounded-4" style="max-width: 340px;">
+      <img src="./assets/images/illustration-article.svg" alt="Illustration representing HTML and CSS code" class="card-img-top img-fluid rounded-3 mb-3">
       
-      <span class="tag">Learning</span>
-      <p class="date">Published 21 Dec 2023</p>
-      
-      <h1><a href="#">HTML & CSS foundations</a></h1>
-      
-      <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-      
-      <div class="author">
-        <img src="./assets/images/image-avatar.webp" alt="Greg Hooper avatar">
-        <span>Greg Hooper</span>
+      <div class="card-body px-0 py-2">
+        <span class="badge bg-warning text-dark fw-bold mb-3 px-3 py-2">Learning</span>
+        <p class="text-muted small mb-2">Published 21 Dec 2023</p>
+        
+        <h1 class="h5 card-title fw-bold mb-3"><a href="#" class="text-dark text-decoration-none">HTML & CSS foundations</a></h1>
+        
+        <p class="card-text text-muted small mb-4">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        
+        <div class="d-flex align-items-center gap-3">
+          <img src="./assets/images/image-avatar.webp" alt="Greg Hooper avatar" width="32" height="32" class="rounded-circle">
+          <span class="fw-bold small">Greg Hooper</span>
+        </div>
       </div>
     </article>
   </main>
 
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Lynnette Ray</a>.
+  <footer class="text-center pb-3 attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Nettec31/blog-preview-card.git" target="_blank">Lynnette Ray</a>.
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </body>
 </html>
